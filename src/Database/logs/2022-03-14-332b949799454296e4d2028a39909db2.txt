@@ -1,0 +1,106 @@
+Time : 17:54:10
+SQLSTATE[HY000]: General error: 1364 Field 'authors_id' doesn't have a default value
+Raw SQL : INSERT INTO `journals` (`name`,`shortcut`,`img`,`created_at`) 
+			VALUES (:name,:shortcut,:img,:created_at)
+
+Time : 17:53:50
+SQLSTATE[HY000]: General error: 1364 Field 'auhtors_id' doesn't have a default value
+Raw SQL : INSERT INTO `journals` (`name`,`shortcut`,`img`,`created_at`) 
+			VALUES (:name,:shortcut,:img,:created_at)
+
+Time : 17:53:28
+SQLSTATE[HY000]: General error: 1364 Field 'id' doesn't have a default value
+Raw SQL : INSERT INTO `journals` (`name`,`shortcut`,`img`) 
+			VALUES (:name,:shortcut,:img)
+
+Time : 17:53:22
+SQLSTATE[HY000]: General error: 1364 Field 'id' doesn't have a default value
+Raw SQL : INSERT INTO `journals` (`name`,`shortcut`,`img`) 
+			VALUES (:name,:shortcut,:img)
+
+Time : 17:52:34
+SQLSTATE[22007]: Invalid datetime format: 1292 Incorrect datetime value: '1647280354' for column 'created_at' at row 1
+Raw SQL : INSERT INTO `journals` (`name`,`shortcut`,`img`,`created_at`) 
+			VALUES (:name,:shortcut,:img,:created_at)
+
+Time : 17:52:04
+SQLSTATE[22007]: Invalid datetime format: 1292 Incorrect datetime value: '1647280324' for column 'created_at' at row 1
+Raw SQL : INSERT INTO `journals` (`name`,`shortcut`,`img`,`created_at`) 
+			VALUES (:name,:shortcut,:img,:created_at)
+
+Time : 17:34:55
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+Raw SQL : delete from authors where id=
+
+Time : 17:33:22
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+Raw SQL : delete from authors where id=
+
+Time : 16:55:49
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?, ? WHERE id=1' at line 1
+Raw SQL : update authors SET :values WHERE id=1
+
+Time : 16:53:24
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?, ? WHERE id=1' at line 1
+Raw SQL : update authors SET :values WHERE id=1
+
+Time : 16:50:50
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?, ? WHERE id=1' at line 1
+Raw SQL : update authors SET :values WHERE id=1
+
+Time : 16:50:40
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?, ? WHERE id=1' at line 1
+Raw SQL : update authors SET :values WHERE id=1
+
+Time : 16:50:19
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?, ? WHERE id=1' at line 1
+Raw SQL : update authors SET :values WHERE id=1
+
+Time : 16:50:13
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?, ? WHERE id=1' at line 1
+Raw SQL : update authors SET :values WHERE id=1
+
+Time : 16:49:59
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?, ? WHERE id=1' at line 1
+Raw SQL : update authors SET :values WHERE id=1
+
+Time : 16:49:35
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?, ? WHERE id=1' at line 1
+Raw SQL : update authors SET :values WHERE id=1
+
+Time : 16:48:32
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?, ? WHERE id=1' at line 1
+Raw SQL : update authors SET :values WHERE id=1
+
+Time : 16:43:11
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?, ? WHERE id=1' at line 1
+Raw SQL : update authors SET :values WHERE id=1
+
+Time : 16:42:49
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?, ? WHERE id=1' at line 1
+Raw SQL : update authors SET :values WHERE id=1
+
+Time : 16:42:48
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?, ? WHERE id=1' at line 1
+Raw SQL : update authors SET :values WHERE id=1
+
+Time : 16:42:34
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?, ? WHERE id=1' at line 1
+Raw SQL : update authors SET :values WHERE id=1
+
+Time : 16:42:33
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?, ? WHERE id=1' at line 1
+Raw SQL : update authors SET :values WHERE id=1
+
+Time : 16:42:06
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?, ? WHERE id=1' at line 1
+Raw SQL : update authors SET :values WHERE id=1
+
+Time : 16:40:39
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?, ? WHERE id=1' at line 1
+Raw SQL : update authors SET :values WHERE id=1
+
+Time : 10:27:05
+SQLSTATE[42S22]: Column not found: 1054 Unknown column '0' in 'field list'
+Raw SQL : INSERT INTO `authors` (`0`,`1`,`2`) 
+			VALUES (:0,:1,:2)

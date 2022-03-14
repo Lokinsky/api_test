@@ -1,0 +1,19 @@
+{
+    "name": "lokinsky/test_api_native",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Lokinsky",
+            "email": "wf.pbvova2030@icloud.com"
+        }
+    ],
+    "require": {
+      "ext-json": "*",
+      "ext-pdo": "*",
+      "ext-mysql_xdevapi": "*"
+    }
+}
